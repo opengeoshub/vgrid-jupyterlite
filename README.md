@@ -6,7 +6,7 @@ JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://demo.vgrid.vn**
+➡️ **https://demo.gishub.vn**
 
 ## Repository
 
@@ -14,10 +14,10 @@ JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## Usage
 
-Install vgrid for JupyterLite using:
+Install vgrid, vgridpandas for JupyterLite using:
 
 ```bash
-%pip install -q vgrid
+%pip install -q vgrid vgridpandas
 ```
 
 Alternatively, you can install vgrid using piplite:
@@ -25,13 +25,7 @@ Alternatively, you can install vgrid using piplite:
 ```python
 import piplite
 await piplite.install('vgrid')
-```
-
-To install GeoPandas, you can use:
-
-```python
-import piplite
-await piplite.install(['geopandas', 'shapely', 'pyproj'], deps=False)
+await piplite.install('vgridpandas')
 ```
 
 ## How to get an updated version of JupyterLite

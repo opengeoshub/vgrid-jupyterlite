@@ -5,17 +5,17 @@
 import glob
 import os
 import shutil
-import vgrid
+from vgrid.utils.download import download_file
 
 # Download vgrid repository
 url_vgrid = 'https://github.com/opengeoshub/vgrid/archive/refs/heads/main.zip'
 out_zip_vgrid = 'vgrid-main.zip'
-vgrid.utils.download.download_file(url_vgrid, out_zip_vgrid)
+download_file(url_vgrid, out_zip_vgrid)
 
 # Download vgridpandas repository
 url_vgridpandas = 'https://github.com/opengeoshub/vgridpandas/archive/refs/heads/main.zip'
 out_zip_vgridpandas = 'vgridpandas-main.zip'
-vgrid.utils.download.download_file(url_vgridpandas, out_zip_vgridpandas)
+download_file(url_vgridpandas, out_zip_vgridpandas)
 
 # Setup directories
 out_dir = 'content'
