@@ -5,7 +5,7 @@
 import glob
 import os
 import shutil
-from vgrid.utils.download import download_file
+from vgrid.utils.io import download_file
 
 # Download vgrid repository
 url_vgrid = 'https://github.com/opengeoshub/vgrid/archive/refs/heads/main.zip'
