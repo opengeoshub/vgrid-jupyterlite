@@ -6,7 +6,7 @@ JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
 
-➡️ **https://demo.gishub.vn**
+➡️ **https://jupyterlite.gishub.vn**
 
 ## Repository
 
